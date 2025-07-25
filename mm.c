@@ -1,12 +1,7 @@
-/**_**_*****_*_*********************
- *   Student ID: lun8              *
- *   Student name: Luis Oliveira   *
- ***********************************/
+//Rhonda Ojongmboh
 
 /*-------------------------------------------------------------------
  *
- *  Malloc Project Starter code:
- *        A (bad) malloc - always fails!
  *
  * Project stage 1:
  *        A malloc - modify the code to only request more memory
@@ -72,12 +67,7 @@ static long fake_heap[22] = {
 #define UNSCALED_POINTER_ADD(p, x) ((void *)((char *)(p) + (x)))
 #define UNSCALED_POINTER_SUB(p, x) ((void *)((char *)(p) - (x)))
 
-/**********************************************************************
- *
- * For a more detailed explanation of these structs, check file mman.h
- * and the project handout
- *
- ***********************************************************************/
+
 typedef struct _BlockInfo
 {
     long int size;          // Size of block
@@ -608,10 +598,7 @@ void mm_free(void *ptr)
 /**********************************************************************
  * PROVIDED FUNCTIONS
  *
- * You do not need to modify these, but they might be helpful to read
- * over.
- *
- * Note: They will need you to correctly implement functions
+ * Note: Need to correctly implement functions
  *     first_block and heap_size
  **********************************************************************/
 
